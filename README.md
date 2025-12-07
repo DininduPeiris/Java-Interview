@@ -1,6 +1,31 @@
 # Java Interview 
 This repository is designed to help you to face Java interviews with confidence.
 
+## Core Principles of OOP
+
+1. Encapsulation
+* Encapsulation is the practice of bundling data (fields/ attributes) and behavior (methods) together inside a class, and restricting direct access to some of the object's internal details.
+
+2. Abstraction
+* Abstraction focuses on exposing only the essential features of an object and hiding the unnecessary implementation details.
+* Ex: You can call a print() method without knowing the internal logic behind how printing happens.
+
+3. Inheritance
+* Inheritance allows a class (child/subclass) to acquire properties and methods of another class (parent/superclass)
+* Promotes code reuse.
+* Supports hierarchical relationships.
+* Allows customization by overriding methods.
+* Example: A Teacher class may inherit from a Profession base class.
+
+4. Polymorphism
+* Polymorphism allows the same method name to behave differently depending on the object that invokes it.
+* Two main types:
+      1. Compile-time polymorphism (method overloading)
+      2. Runtime polymorphism (method overriding)
+* Increases flexibility and extensibility.
+* Enables "one interface, many implementations."
+* Example: Different subclasses implement the same print() method differently.
+
 ## Important Points 
 
 * In object-oriented programming, a synchronized method is a method that can only be accessed by one thread at a time, while a non-synchronized method can be accessed by multiple threads simultaneously.
