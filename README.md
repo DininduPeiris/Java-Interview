@@ -19,6 +19,41 @@ Abstraction = Showing what something does, not how it does it.
 * Can have normal methods
 * Cannot be instantiated
 
+```java
+abstract class Animal {
+    abstract void sound();  // abstract method
+}
+```
+
+2️⃣ Interfaces
+
+* 100% abstraction until Java 8
+* Only method declarations (Java >8 allows default and static methods)
+
+```java
+interface Vehicle {
+    void start();  // implicitly public abstract
+}
+```
+🧩 Why Use Abstraction?
+
+* Reduces code complexity
+* Improves code maintainability
+* Helps achieve loose coupling
+* Makes the system easier to understand and extend
+
+```java
+abstract class Shape {
+    abstract void draw();
+}
+
+class Circle extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a Circle");
+    }
+}
+```
 
 ## Is Java Pass by value or pass-by-reference
 video link - https://www.youtube.com/watch?v=w4sGl3HxgZw&list=PLyHJZXNdCXscoyL5XEZoHHZ86_6h3GWE1&index=3
