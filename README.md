@@ -7,6 +7,19 @@ This repository is designed to help you to face Java interviews with confidence.
 * Exception is an event which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.”
 * Concrete classes are Java classes that have code that implements all their methods, and method bodies are complete. Concrete classes in Java are known as 100% implemented classes. A concrete class can be instantiated as an object.
 
+### What is Abstraction in OOP
+Hiding complex implementation details and showing only the essential features of an object. 
+Abstraction = Showing what something does, not how it does it.
+
+🏗️ How Abstraction Works in OOP
+
+1️⃣ Abstract Classes
+
+* Can have abstract methods (no body)
+* Can have normal methods
+* Cannot be instantiated
+
+
 ## Is Java Pass by value or pass-by-reference
 video link - https://www.youtube.com/watch?v=w4sGl3HxgZw&list=PLyHJZXNdCXscoyL5XEZoHHZ86_6h3GWE1&index=3
 
